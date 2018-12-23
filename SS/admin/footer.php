@@ -1,0 +1,1 @@
+<center>Copyright &copy; 2013-2014 Hwebs All right Reserved.</center>
