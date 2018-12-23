@@ -1,0 +1,131 @@
+/*
+	Created By: Maciej Kwas
+	http://themeforest.net/user/prowseed
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Kreon|Oswald);
+
+
+/* QUICK RESET
+	----------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, cite, code, del, dfn, img, ins, kbd, q, s, samp, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;list-style: none;}
+
+/* GLOBAL MODIFIERS
+	----------------------------------------------------------------*/
+html {
+	background:url(bg.jpg);
+	background-size:100% 120%;
+	background-repeat:no-repeat;
+	}
+body {
+	font: 16px Arial, Helvetica, sans-serif;
+	line-height:28px;
+	text-align:left;
+	}
+:focus {
+	outline: 0;
+	}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	}
+h1 {
+	font: 48px/48px 'Kreon', serif;
+	}
+h3 {
+	font: 24px/28px 'Kreon', serif;
+	margin-bottom:35px;
+	}
+p {
+	color:#333;
+	}
+a {
+	color:#cc0a0a;
+	}
+.center {
+	text-align:center;
+	}
+.margintop {
+	margin-top:15px;
+	}
+.marginbottom {
+	margin-bottom: 35px;
+	}
+::selection {
+	background: #f8a02f;
+	}
+::-moz-selection {
+	background: #f8a02f;
+	}
+
+/* GRID
+	----------------------------------------------------------------*/
+.grid1, .grid15, .grid2, .grid3, .grid4, .grid45, .grid5, .grid6 {
+	display: inline;
+	float: left;
+	margin-left: 20px;
+	}
+
+.grid1 {width:140px;}
+.grid2 {width:300px;}
+.grid3 {width:460px;}
+.grid4 {width:620px;}
+.grid5 {width:780px;}
+.grid6 {width:940px;}
+
+.grid15 {width:220px;}
+.grid45 {width:700px;}
+
+.margin1 {margin-left:180px;}
+.margin2 {margin-left:340px;}
+.margin3 {margin-left:500px;}
+.margin4 {margin-left:660px;}
+.margin5 {margin-left:820px;}
+.margin6 {margin-left:980px;}
+
+.inside {margin-left:0;}
+.main {
+	margin-left:auto;
+	margin-right:auto;
+	width:980px;
+	}
+
+/* CIRCLES
+	----------------------------------------------------------------*/
+
+.circle {
+	display: inline-block;
+	width: 370px;
+	height: 370px;
+	border-radius:50%;
+	margin: 10px 25px;
+	position: relative;
+	overflow: hidden;
+	text-indent: -999px;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	}
+.circle.orange {
+	background:url(fitness.jpg);
+	background-size:500px 500px;
+	background-repeat:no-repeat;
+	border:1px #E2956C solid;	
+	}
+.circle.orange:hover {
+	box-shadow: 0 0 0 1px #E2956C, inset 0 0 0 5px #fff;
+	}
+.circle.blue {
+background:url(dental.jpg);	
+	background-size:500px 500px;
+	background-repeat:no-repeat;
+	border:1px #364D8C solid;
+	}
+.circle.blue:hover {
+	box-shadow: 0 0 0 1px #364D8C, inset 0 0 0 5px #fff;
+	}
